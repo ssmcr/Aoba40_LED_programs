@@ -125,7 +125,6 @@ def LED_display(form_json,stalist_json):
     
         text = text + end
         leng_text_pic = len(text) * 16
-        print(text)
 
         scroll_images = []
         i = 0
@@ -143,8 +142,6 @@ def LED_display(form_json,stalist_json):
             i += 1
             if i == int(leng_text_pic) + 128:
                 break
-        
-        print(len(scroll_images))
 
     try:
         if (parameters['departure'] == '0'):
