@@ -59,8 +59,6 @@ while True :  # スクロール画像を生成
     else:
         i += 1
 
-print(len(images))
-
 while True:
     for im_scroll in images:
         matrix.SetImage(im_scroll)
