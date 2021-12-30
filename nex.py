@@ -61,8 +61,6 @@ for flame in range(10):
     ims_base = Image.new("RGB",(128,32),(0,0,0))
     anime.append(ims_base)
 
-print(len(images))
-
 while True:
     for im_scroll in anime:
         matrix.SetImage(im_scroll)
